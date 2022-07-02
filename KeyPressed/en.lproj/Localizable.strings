@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Microsoft Mouse Handler
+
+  Created by Christian Fischer on 02.07.22.
+  
+*/
+
+"Options" = "Options";
+"Enabled" = "Enabled";
+"Quit"    = "Quit";
