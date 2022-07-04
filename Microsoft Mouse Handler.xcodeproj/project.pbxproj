@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84253ED428716C2C0098F276 /* AccessibilityHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84253ED328716C2C0098F276 /* AccessibilityHandler.swift */; };
 		84258B2628705AC100F96181 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84258B2828705AC100F96181 /* Localizable.strings */; };
 		84355911286D8E89002EE914 /* StatusBarHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84355910286D8E89002EE914 /* StatusBarHandler.swift */; };
 		84355914286D9BA8002EE914 /* MouseClickHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84355913286D9BA8002EE914 /* MouseClickHandler.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84253ED328716C2C0098F276 /* AccessibilityHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityHandler.swift; sourceTree = "<group>"; };
 		84258B2728705AC100F96181 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		84258B2928705ACF00F96181 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		84258B2A28705ACF00F96181 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				84BEBF98285DECD10047F310 /* WindowHandler.swift */,
 				84355913286D9BA8002EE914 /* MouseClickHandler.swift */,
 				84355915286D9C6A002EE914 /* StatusHandler.swift */,
+				84253ED328716C2C0098F276 /* AccessibilityHandler.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			files = (
 				84355916286D9C6A002EE914 /* StatusHandler.swift in Sources */,
 				84355914286D9BA8002EE914 /* MouseClickHandler.swift in Sources */,
+				84253ED428716C2C0098F276 /* AccessibilityHandler.swift in Sources */,
 				84355911286D8E89002EE914 /* StatusBarHandler.swift in Sources */,
 				84BEB9C42857529600BFA8B0 /* ViewController.swift in Sources */,
 				84BEBF99285DECD10047F310 /* WindowHandler.swift in Sources */,

@@ -9,7 +9,7 @@ import Foundation
 import Cocoa
 
 extension AppDelegate {
-    func keyPress() -> Bool {
+    func keyPress() {
         var backButtonElement: AXUIElement?
         var forwardButtonElement: AXUIElement?
         
@@ -45,26 +45,24 @@ extension AppDelegate {
                 }
             }
         }
-        
-        return true
     }
 }
 
-func performHistoryAction(menuItem: AXUIElement) {
+private func performHistoryAction(menuItem: AXUIElement) {
     AXUIElementPerformAction(menuItem, kAXPressAction as CFString)
 }
 
-func getBackwardElement() -> AXUIElement {
+private func getBackwardElement() -> AXUIElement {
     let backMenuItem = getHistoryMenuItemsElement()[2]
     return backMenuItem
 }
 
-func getForwardElement() -> AXUIElement {
+private func getForwardElement() -> AXUIElement {
     let forwardMenuItem = getHistoryMenuItemsElement()[3]
     return forwardMenuItem
 }
 
-func getHistoryMenuItemsElement() -> [AXUIElement] {
+private func getHistoryMenuItemsElement() -> [AXUIElement] {
     guard let safari = NSWorkspace.shared.runningApplications.first(where: { $0.bundleIdentifier == "com.apple.Safari" }) else {
         fatalError()
     }
