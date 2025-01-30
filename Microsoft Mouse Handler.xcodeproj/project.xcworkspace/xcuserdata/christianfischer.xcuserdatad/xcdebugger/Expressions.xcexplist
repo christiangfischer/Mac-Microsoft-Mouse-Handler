@@ -3,6 +3,14 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "mach_msg2_trap:(null)">
+         <PersistentStrings>
+            <PersistentString
+               value = "backwardsButton">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "closure #1 in AppDelegate.applicationDidFinishLaunching(_:):AppDelegate.swift">
          <PersistentStrings>
             <PersistentString
@@ -10,6 +18,22 @@
             </PersistentString>
             <PersistentString
                value = "win.bundleIdentifier">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "handleSafariClicks(mouseButton:):ApplicationHandler.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "buttonElement">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Safari.getHistoryMenuItemsElement():SafariControl.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "kAXChildrenAttribute">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

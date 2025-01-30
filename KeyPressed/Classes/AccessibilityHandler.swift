@@ -29,7 +29,7 @@ private func isAccessibilityEnabled() -> Bool {
 
 private func promptAccessibilityAlert() {
     let alert = NSAlert()
-    alert.messageText = "Please grant accessibility in next dialog and relaunch app."
+    alert.messageText = NSLocalizedString("accessibility_grant_message", comment: "tell user to grant privileges")
     alert.runModal()
 }
 

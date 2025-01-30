@@ -17,23 +17,25 @@ extension AppDelegate {
         sBarItem = sBar.statusItem(withLength: NSStatusItem.squareLength)
         sBarItem.button?.image = NSImage(systemSymbolName: "computermouse.fill", accessibilityDescription: "")
         
-        let sBarMenu = NSMenu(title: NSLocalizedString("Options", comment: "Title of menu"))
+        let sBarMenu = NSMenu(title: NSLocalizedString("option_menutitle", comment: "Title of menu"))
         
         // assign menu to status bar item
         sBarItem.menu = sBarMenu
         
-        let enableDisableMenuItem = NSMenuItem(title: NSLocalizedString("Enabled", comment: "menu item indicating if handler is enabled"), action: #selector(toggleAdvancedMouseHandlingObjc), keyEquivalent: "e")
+        let enableDisableMenuItem = NSMenuItem(title: NSLocalizedString("enable_button", comment: "menu item indicating if handler is enabled"), action: #selector(toggleAdvancedMouseHandlingObjc), keyEquivalent: "e")
         onOffMenuItem = enableDisableMenuItem
         onOffMenuItem.state = NSControl.StateValue.on
         
         sBarMenu.addItem(onOffMenuItem)
-        sBarMenu.addItem(withTitle: NSLocalizedString("Quit", comment: "Terminate the application"), action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
+        sBarMenu.addItem(withTitle: NSLocalizedString("quit_button", comment: "Terminate the application"), action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
     }
     
     @objc func toggleAdvancedMouseHandlingObjc() {
         if sHandler.isAdvancedMouseHandlingEnabled() {
+            ev?.stop()
             sHandler.disableAdvancedMouseHandling()
         } else {
+            ev?.start()
             sHandler.enableAdvancedMouseHandling()
         }
         

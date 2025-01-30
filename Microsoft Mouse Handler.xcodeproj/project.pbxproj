@@ -12,6 +12,7 @@
 		84355911286D8E89002EE914 /* StatusBarHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84355910286D8E89002EE914 /* StatusBarHandler.swift */; };
 		84355914286D9BA8002EE914 /* MouseClickHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84355913286D9BA8002EE914 /* MouseClickHandler.swift */; };
 		84355916286D9C6A002EE914 /* StatusHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84355915286D9C6A002EE914 /* StatusHandler.swift */; };
+		846195FB2D465FAC0081EED1 /* ApplicationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846195FA2D465FAC0081EED1 /* ApplicationControl.swift */; };
 		84BEB9C22857529600BFA8B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEB9C12857529600BFA8B0 /* AppDelegate.swift */; };
 		84BEB9C42857529600BFA8B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEB9C32857529600BFA8B0 /* ViewController.swift */; };
 		84BEB9C62857529800BFA8B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BEB9C52857529800BFA8B0 /* Assets.xcassets */; };
@@ -20,6 +21,10 @@
 		84BEB9DE2857529800BFA8B0 /* KeyPressedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEB9DD2857529800BFA8B0 /* KeyPressedUITests.swift */; };
 		84BEB9E02857529800BFA8B0 /* KeyPressedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEB9DF2857529800BFA8B0 /* KeyPressedUITestsLaunchTests.swift */; };
 		84BEBF99285DECD10047F310 /* WindowHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEBF98285DECD10047F310 /* WindowHandler.swift */; };
+		84C751C3288172A500160C5E /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C751C2288172A500160C5E /* EventMonitor.swift */; };
+		84C751C7288238F300160C5E /* ApplicationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C751C6288238F300160C5E /* ApplicationHandler.swift */; };
+		84C751C9288242ED00160C5E /* SafariControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C751C8288242ED00160C5E /* SafariControl.swift */; };
+		84C751CB2882AB4B00160C5E /* FinderControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C751CA2882AB4B00160C5E /* FinderControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,14 +48,15 @@
 		84253ED328716C2C0098F276 /* AccessibilityHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityHandler.swift; sourceTree = "<group>"; };
 		84258B2728705AC100F96181 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		84258B2928705ACF00F96181 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
-		84258B2A28705ACF00F96181 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		84258B2C28705BBB00F96181 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		84258B2D28705BCD00F96181 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
-		84258B2E28705BCD00F96181 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8435590F286D89FF002EE914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		84355910286D8E89002EE914 /* StatusBarHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarHandler.swift; sourceTree = "<group>"; };
 		84355913286D9BA8002EE914 /* MouseClickHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseClickHandler.swift; sourceTree = "<group>"; };
 		84355915286D9C6A002EE914 /* StatusHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusHandler.swift; sourceTree = "<group>"; };
+		846195FA2D465FAC0081EED1 /* ApplicationControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationControl.swift; sourceTree = "<group>"; };
+		8469CAF12889620A0023EBDB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		8469CAF3288969930023EBDB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8469CAF4288969940023EBDB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		84BEB9BE2857529600BFA8B0 /* Microsoft Mouse Handler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Microsoft Mouse Handler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BEB9C12857529600BFA8B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BEB9C32857529600BFA8B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +69,10 @@
 		84BEB9DD2857529800BFA8B0 /* KeyPressedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPressedUITests.swift; sourceTree = "<group>"; };
 		84BEB9DF2857529800BFA8B0 /* KeyPressedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPressedUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		84BEBF98285DECD10047F310 /* WindowHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowHandler.swift; sourceTree = "<group>"; };
+		84C751C2288172A500160C5E /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		84C751C6288238F300160C5E /* ApplicationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationHandler.swift; sourceTree = "<group>"; };
+		84C751C8288242ED00160C5E /* SafariControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariControl.swift; sourceTree = "<group>"; };
+		84C751CA2882AB4B00160C5E /* FinderControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,16 +100,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		84355912286D928D002EE914 /* Helpers */ = {
+		84355912286D928D002EE914 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				84355910286D8E89002EE914 /* StatusBarHandler.swift */,
 				84BEBF98285DECD10047F310 /* WindowHandler.swift */,
-				84355913286D9BA8002EE914 /* MouseClickHandler.swift */,
 				84355915286D9C6A002EE914 /* StatusHandler.swift */,
+				84C751C2288172A500160C5E /* EventMonitor.swift */,
 				84253ED328716C2C0098F276 /* AccessibilityHandler.swift */,
+				84C751C6288238F300160C5E /* ApplicationHandler.swift */,
+				84355913286D9BA8002EE914 /* MouseClickHandler.swift */,
 			);
-			path = Helpers;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		84BEB9B52857529600BFA8B0 = {
@@ -125,11 +136,13 @@
 		84BEB9C02857529600BFA8B0 /* KeyPressed */ = {
 			isa = PBXGroup;
 			children = (
+				84355912286D928D002EE914 /* Classes */,
+				84C751C4288235B800160C5E /* Action Control */,
 				84258B2828705AC100F96181 /* Localizable.strings */,
 				8435590F286D89FF002EE914 /* Info.plist */,
 				84BEB9C12857529600BFA8B0 /* AppDelegate.swift */,
 				84BEB9C32857529600BFA8B0 /* ViewController.swift */,
-				84355912286D928D002EE914 /* Helpers */,
+				84355910286D8E89002EE914 /* StatusBarHandler.swift */,
 				84BEB9C52857529800BFA8B0 /* Assets.xcassets */,
 				84BEB9C72857529800BFA8B0 /* Main.storyboard */,
 				84BEB9CA2857529800BFA8B0 /* KeyPressed.entitlements */,
@@ -152,6 +165,16 @@
 				84BEB9DF2857529800BFA8B0 /* KeyPressedUITestsLaunchTests.swift */,
 			);
 			path = KeyPressedUITests;
+			sourceTree = "<group>";
+		};
+		84C751C4288235B800160C5E /* Action Control */ = {
+			isa = PBXGroup;
+			children = (
+				84C751C8288242ED00160C5E /* SafariControl.swift */,
+				84C751CA2882AB4B00160C5E /* FinderControl.swift */,
+				846195FA2D465FAC0081EED1 /* ApplicationControl.swift */,
+			);
+			path = "Action Control";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,13 +310,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846195FB2D465FAC0081EED1 /* ApplicationControl.swift in Sources */,
+				84C751CB2882AB4B00160C5E /* FinderControl.swift in Sources */,
 				84355916286D9C6A002EE914 /* StatusHandler.swift in Sources */,
 				84355914286D9BA8002EE914 /* MouseClickHandler.swift in Sources */,
 				84253ED428716C2C0098F276 /* AccessibilityHandler.swift in Sources */,
 				84355911286D8E89002EE914 /* StatusBarHandler.swift in Sources */,
 				84BEB9C42857529600BFA8B0 /* ViewController.swift in Sources */,
+				84C751C9288242ED00160C5E /* SafariControl.swift in Sources */,
 				84BEBF99285DECD10047F310 /* WindowHandler.swift in Sources */,
+				84C751C7288238F300160C5E /* ApplicationHandler.swift in Sources */,
 				84BEB9C22857529600BFA8B0 /* AppDelegate.swift in Sources */,
+				84C751C3288172A500160C5E /* EventMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,8 +362,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				84258B2728705AC100F96181 /* en */,
-				84258B2A28705ACF00F96181 /* de */,
-				84258B2E28705BCD00F96181 /* es */,
+				8469CAF3288969930023EBDB /* de */,
+				8469CAF4288969940023EBDB /* es */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -346,7 +374,7 @@
 				84BEB9C82857529800BFA8B0 /* Base */,
 				84258B2928705ACF00F96181 /* de */,
 				84258B2C28705BBB00F96181 /* en */,
-				84258B2D28705BCD00F96181 /* es */,
+				8469CAF12889620A0023EBDB /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

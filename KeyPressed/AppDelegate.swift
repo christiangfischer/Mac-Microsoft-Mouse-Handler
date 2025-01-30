@@ -12,6 +12,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var sBarItem: NSStatusItem!
     var onOffMenuItem: NSMenuItem!
     var sHandler = StatusHandler(status: true)
+    var ev: EventMonitor?
+    var safariHandler: Safari = Safari()
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
